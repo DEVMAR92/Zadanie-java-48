@@ -6,11 +6,10 @@ public class Test {
         Scanner input = new Scanner(System.in);
         DigitsSum sum1 = new DigitsSum();
         System.out.println("Podaj liczbę");
-        sum1.setNumber(input.nextInt());
 
-        sum1.sumOfDigits();
+        int result1 = sum1.sumOfDigits(input.nextInt());
 
-        System.out.println("Suma cyfr tej liczby to: " + sum1.getResult());
+        System.out.println("Suma cyfr tej liczby to: " + result1);
 
     }
 }
